@@ -1,0 +1,88 @@
+<mat-card class="v-recipe">
+    <mat-card-header class="v-recipe__header">
+        <mat-card-title class="" fxLayout="row" fxLayoutGap="2em" fxLayoutAlign="start center">
+            <h2 class="v-recipe__header--weight">500</h2>
+            <h2 >Feedy <span class="green">Green</span></h2>
+            <h2 fxFlex class="v-recipe__header--number">022</h2>
+
+            <button mat-stroked-button color="primary">измельчение</button>
+            <button mat-button color="primary">смешивание</button>
+            <button mat-button color="primary">гранулирование</button>
+            <button mat-button color="primary">упаковка</button>
+            <button mat-button color="primary">завершено</button>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="v-recipe__content">
+        <mat-list class="">
+            <mat-list-item class="v-recipe__content--item title">
+                <h4 mat-line fxLayout="row" fxLayoutAlign="start center">
+                    <div fxFlex="20" class="v-recipe__content--item--bunker">
+                        <b>Бункер</b>
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--component">
+                        <b>Компонент</b>
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--weight">
+                        <b>Вес (кг)</b>
+                    </div>
+                    <div fxFlex="40" class="v-recipe__content--item--status">
+                        <b>Статус</b>
+                    </div>
+                </h4>
+            </mat-list-item>
+            <mat-list-item class="v-recipe__content--item done">
+                <h4 mat-line fxLayout="row" fxLayoutAlign="start center">
+                    <div fxFlex="20" class="v-recipe__content--item--bunker">
+                        01
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--component">
+                        Ячмень
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--weight">
+                        150
+                    </div>
+                    <div fxFlex="40" class="v-recipe__content--item--weight">
+                        готов
+                    </div>
+                </h4>
+            </mat-list-item>
+            <mat-list-item class="v-recipe__content--item in-progress">
+                <h4 mat-line fxLayout="row" fxLayoutAlign="start center">
+                    <div fxFlex="20" class="v-recipe__content--item--bunker">
+                        02
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--component">
+                        Горох
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--weight">
+                        150
+                    </div>
+                    <div fxFlex="40" class="v-recipe__content--item--weight">
+                        работа
+                    </div>
+                </h4>
+            </mat-list-item>
+            <mat-list-item class="v-recipe__content--item">
+                <h4 mat-line fxLayout="row" fxLayoutAlign="start center">
+                    <div fxFlex="20" class="v-recipe__content--item--bunker">
+                        05
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--component">
+                        Кукуруза
+                    </div>
+                    <div fxFlex="20" class="v-recipe__content--item--weight">
+                        200
+                    </div>
+                    <div fxFlex="40" class="v-recipe__content--item--weight">
+                        
+                    </div>
+                </h4>
+            </mat-list-item>
+        </mat-list>   
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="end center" fxLayout="row">
+        <button mat-button color="warn">отменить</button>
+        <div fxFlex></div>
+        <button mat-button>скрыть</button>
+      </mat-card-actions>
+</mat-card>

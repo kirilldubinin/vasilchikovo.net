@@ -1,0 +1,12 @@
+.v-header {
+    background-color: #555;
+    color: #fefefe;
+    padding: 10px 20px;
+    line-height: 36px;
+    &__current--item {
+        margin-left: 2em;
+    }
+    &__date {
+        margin-right: 2em;
+    }
+}

@@ -1,0 +1,121 @@
+$dark-blue: #0D47A1;
+$light-blue: #BBDEFB;
+
+.v-tasks {
+    &__card {
+        &.prev {
+            background-color: #f0f0f0;
+            //&--content {
+                .task-item {
+                    color: #999;
+                    opacity: 0.5;
+                    /*&--number {
+                        
+                    }
+                    &--name {
+                        font-weight: bold;
+                        .green {
+                            margin-left: 0.2em;
+                            background-color: #9db59a;
+                            color: #f0f0f0;
+                            padding: 6px 4px;
+                            border-radius: 6px;
+                            font-weight: normal;
+                        }
+                    }
+                    &--weight {
+                        background-color: #a2b0c5;
+                        color: #fff;
+                        border-radius: 4px;
+                        padding: 4px 8px;
+                        margin-right: 1em;
+                    }*/
+                }
+            //}
+        }
+        margin: 10px 12px;
+        &--header {
+            .mat-card-header-text {
+                width: 100%;
+                margin: 0px;
+            }
+        }
+        &--content {
+            .task-item {
+                margin: 8px 0;
+                .mat-list-item-content {
+                    padding: 0px !important;
+                    font-size: 14px;
+                }
+                &--number {
+                    
+                }
+                &--name {
+                    font-weight: bold;
+                    .green {
+                        margin-left: 0.2em;
+                        background-color: #2f6728;
+                        color: #f0f0f0;
+                        padding: 6px 4px;
+                        border-radius: 6px;
+                        font-weight: normal;
+                    }
+                }
+                &--weight {
+                    background-color: $dark-blue;
+                    color: #fff;
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                    margin-right: 1em;
+                }
+            }
+        }
+    }
+}
+/*
+.task-list {
+    color: #555;
+    &__item {
+        cursor: pointer;
+        border-bottom: 1px solid $text-color;
+        padding: 12px 0;
+
+        .recipe {
+            .task-list__task--number {
+                border-color: #5767bd;        
+                background-color: #5767bd;
+            }    
+        }
+        .technical {
+            .task-list__task--number {
+                border-color: #f55a5a;        
+                background-color: #f55a5a;
+            }    
+        }
+    }
+
+    &__task--number {
+        border: 2px solid;
+        color: #fefefe;
+        border-radius: 5px;
+        text-align: center;
+        padding: 4px 12px;
+        font-size: 20px;
+        display: table-cell;
+    }
+    &__task--name {
+        margin: 0 1em;
+        padding-top: 4px;
+        font-size: 22px;
+    }
+    &__task--weight {
+        padding-top: 4px;
+        font-size: 22px;
+        color: #999;
+    }
+    &__task--date {
+        color: #999;
+    }
+}
+
+*/

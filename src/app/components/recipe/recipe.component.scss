@@ -1,0 +1,45 @@
+$dark-blue: #0D47A1;
+$light-blue: #BBDEFB;
+
+.v-recipe {
+    margin: 1em;
+    &__header {
+        .mat-card-header-text {
+            width: 100%;
+        }
+        &--weight {
+            background-color: $dark-blue;
+            color: #fff;
+            font-weight: normal;
+            padding: 6px 8px;
+            border-radius: 4px;
+        }
+        .green {
+            background-color: #2f6728;
+            color: #FFF;
+            padding: 6px 8px;
+            border-radius: 4px;
+            font-weight: normal;
+
+        }
+    }
+    &__content {
+        &--item {
+            margin: 4px 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            &.title {
+                border: none;
+            }
+            &.done {
+                background-color: #f0f0f0;
+                color: #999;
+                border-color: #f0f0f0;
+            }
+            &.in-progress {
+                background-color: #c4f7c8;
+                border-color: #c4f7c8;
+            }
+        }
+    }
+}
